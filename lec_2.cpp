@@ -12,37 +12,48 @@ int main(){
     // cout<<value<<endl;
     float price = 655.25;
     int newPrice = (int)price;
-    cout<<newPrice<<endl;
-//Relational operator
+//     cout<<newPrice<<endl;
+// //Relational operator
 
-    cout<<(3>5)<<endl;
-    cout<<(5>2)<<endl;
+//     cout<<(3>5)<<endl;
+//     cout<<(5>2)<<endl;
 
-// Logical operator     OR -> || -> pipe operator / AND -> Logical and -> &&  / NOT -> !
-//not
-cout<<!(3>1)<<endl;
-cout<<!(3<2)<<endl;
+// // Logical operator     OR -> || -> pipe operator / AND -> Logical and -> &&  / NOT -> !
+// //not
+// cout<<!(3>1)<<endl;
+// cout<<!(3<2)<<endl;
 
-// OR its need any one got true for excutoion
-cout<<((3<2)||(3>2))<<endl;
+// // OR its need any one got true for excutoion
+// cout<<((3<2)||(3>2))<<endl;
 
-//AND its need to be both true when code execute
-cout<<((3>2) && (5>3))<<endl;
+// //AND its need to be both true when code execute
+// cout<<((3>2) && (5>3))<<endl;
 
-// Sum of two numbers
+// // Sum of two numbers
 
-int a=10;
-int b=50;
-int sum = a+b;
-cout<<sum<<endl;
-int a1,b1;
-cout<<"Enter number of a: "<<endl;
+// int a=10;
+// int b=50;
+// int sum = a+b;
+// cout<<sum<<endl;
+// int a1,b1;
+// cout<<"Enter number of a: "<<endl;
 
-cin>>a1;
-cout<<"Enter number of b: "<<endl;
-cin>>b1;
+// cin>>a1;
+// cout<<"Enter number of b: "<<endl;
+// cin>>b1;
 
-int sum1 = a1+b1;
-cout<<"Your ans is:"<<sum1<<endl;
+// int sum1 = a1+b1;
+// cout<<"Your ans is:"<<sum1<<endl;
+
+int n = 2;
+int i = 1;
+while(i<n-1){
+    if(i/n==0)
+    {
+        cout<<"non prime"<<endl;
+    }else{
+        i=i+1;
+    }
+}
     return 0;
 }
